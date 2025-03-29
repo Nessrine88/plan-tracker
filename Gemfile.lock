@@ -84,7 +84,7 @@ GEM
     brakeman (6.2.2)
       racc
     builder (3.3.0)
-    concurrent-ruby (1.3.4)
+    concurrent-ruby (1.3.5)
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.4.1)
@@ -102,13 +102,13 @@ GEM
       warden-jwt_auth (~> 0.10)
     dotenv (3.1.4)
     drb (2.2.1)
-    dry-auto_inject (1.0.1)
-      dry-core (~> 1.0)
+    dry-auto_inject (1.1.0)
+      dry-core (~> 1.1)
       zeitwerk (~> 2.6)
-    dry-configurable (1.2.0)
-      dry-core (~> 1.0, < 2)
+    dry-configurable (1.3.0)
+      dry-core (~> 1.1)
       zeitwerk (~> 2.6)
-    dry-core (1.0.2)
+    dry-core (1.1.0)
       concurrent-ruby (~> 1.0)
       logger
       zeitwerk (~> 2.6)
@@ -130,7 +130,7 @@ GEM
     json (2.9.0)
     jsonapi-serializer (2.2.0)
       activesupport (>= 4.2)
-    jwt (2.9.3)
+    jwt (2.10.1)
       base64
     kamal (2.3.0)
       activesupport (>= 7.0)
@@ -144,7 +144,7 @@ GEM
       thor (~> 1.3)
       zeitwerk (>= 2.6.18, < 3.0)
     language_server-protocol (3.17.0.3)
-    logger (1.6.2)
+    logger (1.7.0)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -191,7 +191,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.8)
+    rack (3.1.12)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-session (2.0.0)
@@ -307,7 +307,7 @@ GEM
     useragent (0.16.11)
     warden (1.2.9)
       rack (>= 2.0.9)
-    warden-jwt_auth (0.10.0)
+    warden-jwt_auth (0.11.0)
       dry-auto_inject (>= 0.8, < 2)
       dry-configurable (>= 0.13, < 2)
       jwt (~> 2.1)
@@ -315,7 +315,7 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.7.1)
+    zeitwerk (2.7.2)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -340,7 +340,7 @@ DEPENDENCIES
   solid_queue
   thruster
   tzinfo-data
-  warden-jwt_auth (~> 0.10.0)
+  warden-jwt_auth (~> 0.11.0)
 
 BUNDLED WITH
    2.5.23
